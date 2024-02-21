@@ -66,9 +66,11 @@ const collectInterest = (selectedInterest: Interest) => {
                     @click="collectInterest(interest)">{{ interest.label }}</div>
             </div>
             <div class="button-area">
-                <div class="button arrow">
-                    <ArrowIcon />
-                </div>
+                <RouterLink to="/activities">
+                    <div class="button arrow">
+                        <ArrowIcon />
+                    </div>
+                </RouterLink>
             </div>
 
         </div>
